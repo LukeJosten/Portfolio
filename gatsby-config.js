@@ -1,16 +1,17 @@
 module.exports = {
   siteMetadata: {
-    title: "Gatsby Starter - Dimension V2",
-    author: "Hunter Chang",
-    description: "A Gatsby.js V2 Starter based on Dimension by HTML5 UP"
+    title: "Luke Josten Portfolio",
+    author: "Luke Josten",
+    description: "Portfolio website for Luke Josten",
+    keywords: "Luke Josten"
   },
   plugins: [
     'gatsby-plugin-react-helmet',
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'gatsby-starter-default',
-        short_name: 'starter',
+        name: 'luke-josten',
+        short_name: 'luke-josten',
         start_url: '/',
         background_color: '#663399',
         theme_color: '#663399',
