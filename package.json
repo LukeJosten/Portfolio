@@ -20,7 +20,7 @@
     "develop": "gatsby develop",
     "serve": "gatsby serve",
     "format": "prettier --write '**/*.js'",
-    "deploy": "gatsby build && gh-pages -d public -b master"
+    "deploy": "gatsby build && gh-pages -d public"
   },
   "devDependencies": {
     "gh-pages": "^2.0.1",
