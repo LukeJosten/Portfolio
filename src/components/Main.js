@@ -28,7 +28,9 @@ class Main extends React.Component {
           <h2 className="major">Work</h2>
           <span className="image main"><img src={pic02} alt="" /></span>
           <p>
-            Under Construction
+            I am currently a full time Software Engineer at Raytheon, a major U.S. defence contractor. 
+            During my free time I have been working on a project with my girlfriend, Ellen, called Cafe Calligraphy. 
+            We will soon be building a website for Cafe Calligraphy so stay tuned to learn more!
           </p>
           {close}
         </article>
