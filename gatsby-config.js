@@ -10,8 +10,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'luke-josten',
-        short_name: 'luke-josten',
+        name: 'Luke Josten',
+        short_name: 'Luke Josten',
         start_url: '/',
         background_color: '#663399',
         theme_color: '#663399',
