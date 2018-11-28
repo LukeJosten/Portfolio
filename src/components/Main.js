@@ -13,18 +13,20 @@ class Main extends React.Component {
     return (
       <div ref={this.props.setWrapperRef} id="main" style={this.props.timeout ? {display: 'flex'} : {display: 'none'}}>
 
-        <article id="work" className={`${this.props.article === 'work' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
-          <h2 className="major">Work</h2>
-          <span className="image main"><img src={pic02} alt="" /></span>
+        <article id="about" className={`${this.props.article === 'about' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{ display: 'none' }}>
+          <h2 className="major">About</h2>
+          <span className="image main"><img src={pic03} alt="" /></span>
           <p>
-            Under Construction
+            Welcome to my portfolio website! I created this site to brush up on my web development skills and to have a place show some of my side projects.
+            I hope you will learn more about me and to learn something new and interesting along the way!
+            If you would like to learn how this site was made, you may checkout my public <a href="https://github.com/LukeJosten/Portfolio">GitHub repository</a> and explore the code.
           </p>
           {close}
         </article>
 
-        <article id="about" className={`${this.props.article === 'about' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
-          <h2 className="major">About</h2>
-          <span className="image main"><img src={pic03} alt="" /></span>
+        <article id="work" className={`${this.props.article === 'work' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
+          <h2 className="major">Work</h2>
+          <span className="image main"><img src={pic02} alt="" /></span>
           <p>
             Under Construction
           </p>
