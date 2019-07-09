@@ -1,9 +1,9 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
+import computer_coffee from '../images/computer_coffee.jpg'
+import raytheon_logo from '../images/raytheon_logo.jpg'
 import pic01 from '../images/pic01.jpg'
-import pic02 from '../images/pic02.jpg'
-import pic03 from '../images/pic03.jpg'
 
 class Main extends React.Component {
   render() {
@@ -15,7 +15,7 @@ class Main extends React.Component {
 
         <article id="about" className={`${this.props.article === 'about' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{ display: 'none' }}>
           <h2 className="major">About</h2>
-          <span className="image main"><img src={pic03} alt="" /></span>
+          <span className="image main"><img src={computer_coffee} alt="" /></span>
           <p>
             Welcome to my portfolio website! I created this site to brush up on my web development skills and to have a place show some of my side projects.
             I hope you will learn more about me and to learn something new and interesting along the way!
@@ -26,11 +26,15 @@ class Main extends React.Component {
 
         <article id="work" className={`${this.props.article === 'work' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Work</h2>
-          <span className="image main"><img src={pic02} alt="" /></span>
+          <span className="image main"><img src={raytheon_logo} alt="Raytheon Logo" /></span>
           <p>
-            I am currently a full time Software Engineer at Raytheon, a major U.S. defence contractor. 
-            During my free time I have been working on a project with my girlfriend, Ellen, called Cafe Calligraphy. 
-            We will soon be building a website for Cafe Calligraphy so stay tuned to learn more!
+            I am a Computer Science graduate from Taylor University with a passion of learning. 
+            I have more than 2 years of professional software development experience in various 
+            roles. I am currently employed at Raytheon, a major U.S. defense contractor. I interned 
+            at Eli Lilly where I developed automation scripts in JavaScript, and I also worked at 
+            a startup company for a year as a full stack web developer. Cyber security is a major 
+            area of interest of mine, and I spent a year researching and analyzing malware during 
+            college. I love solving problems and want to continue to grow as a software developer.
           </p>
           {close}
         </article>
